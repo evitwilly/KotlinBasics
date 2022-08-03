@@ -1,5 +1,7 @@
 # KotlinBasics
 
+<img src="/images/logo.png" />
+
 Основы языка программирования Kotlin
 
 Содержание:
