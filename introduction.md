@@ -27,7 +27,7 @@ Kotlin был придуман в 2011 году и является доволь
 Данные в Kotlin хранятся в переменных.
 
 	fun main() {
-		val str = "Hello, World!"
+	    val str = "Hello, World!"
 	    print(str)
 	}
 
@@ -39,9 +39,9 @@ Kotlin был придуман в 2011 году и является доволь
 не позволяет присвоить новое значение, то есть если вы напишите так:
 
 	fun main() {
-		val str = "Hello, World!"
-		str = "Hello, Twillight Sparkle!"
-		print(str)
+	    val str = "Hello, World!"
+	    str = "Hello, Twillight Sparkle!"
+	    print(str)
 	}
 
 Произойдет ошибка.
@@ -49,9 +49,9 @@ Kotlin был придуман в 2011 году и является доволь
 Чтобы создать переменную, которой вы можете присвоить новое значение, нужно использовать другое ключевое слово:
 
 	fun main() {
-		var str = "Hello, World!"
-		str = "Hello, Twillight Sparkle!"
-		print(str)
+	    var str = "Hello, World!"
+	    str = "Hello, Twillight Sparkle!"
+	    print(str)
 	}
 
 **Запомните!**
@@ -65,11 +65,11 @@ Kotlin был придуман в 2011 году и является доволь
 Попробуем что-нибудь вычислить.
 
 	fun main() {
-		val tenAndHalf = 10.5
-		val two = 2
-		val oneHundred = 100
-		val result = tenAndHalf * two - oneHundred
-		print(result) // -79.0
+	    val tenAndHalf = 10.5
+	    val two = 2
+	    val oneHundred = 100
+	    val result = tenAndHalf * two - oneHundred
+	    print(result) // -79.0
 	}
 
 Я решил вынести каждое число в отдельные переменные, дабы закрепить знания :)
@@ -81,7 +81,7 @@ Kotlin был придуман в 2011 году и является доволь
 Приведу ещё пример:
 
 	fun main() {
-		print(1 / 3.0) // 0.3333333333333333
+	    print(1 / 3.0) // 0.3333333333333333
 	}
 
 Результатом 1 / 3 является бесконечная дробь.
@@ -93,13 +93,13 @@ Kotlin был придуман в 2011 году и является доволь
 Попробуем сложить две строки:
 
 	fun main() {
-		print("Hello, " + "World!")
+	    print("Hello, " + "World!")
 	}
 
 Теперь сложить строку с числом:
 
 	fun main() {
-		print("How much? " + 100)
+	    print("How much? " + 100)
 	}
 
 А если у нас переменная и мы хотим поместить её в внутри нашей строки?
@@ -107,15 +107,15 @@ Kotlin был придуман в 2011 году и является доволь
 Для этого существует знак доллара!
 
 	fun main() {
-		val result = 10.5 * 4
-		print("This result is $result")
+	    val result = 10.5 * 4
+	    print("This result is $result")
 	}
 
 Если мы хотим поместить в строчку целое выражение без использования переменной, то его нужно
 обрамить фигурными скобками:
 
 	fun main() {
-		print("5 * 5 = ${5 * 5}")
+	    print("5 * 5 = ${5 * 5}")
 	}
 
 ### Заключение
