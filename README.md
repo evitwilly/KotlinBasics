@@ -7,7 +7,7 @@
 Для новичков:
 
 1. <a href="/introduction.md">Введение в язык программирования Kotlin</a>
-
+2. <a href="/conditions_and_loops.md">Условные конструкции и циклы в Kotlin</a>
 
 ### Небольшая справочка
 
