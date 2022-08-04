@@ -2,8 +2,10 @@
 
 <img src="/images/logo.png" />
 
-Основы языка программирования Kotlin
+Обучающие материалы по Kotlin'у для новичков.
 
 Содержание:
 
-  1. <a href="/introduction.md">Введение</a>
+1. <a href="/introduction.md">Введение</a>
+
+  
