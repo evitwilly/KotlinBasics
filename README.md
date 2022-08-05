@@ -9,6 +9,10 @@
 1. <a href="/introduction.md">Введение в язык программирования Kotlin</a>
 2. <a href="/conditions_and_loops.md">Условные конструкции и циклы в Kotlin</a>
 
+Для продвинутых:
+
+1. <a href="/covariance_and_contravariance.md">Ковариантность, контравариантность и инвариантность в Kotlin'е</a>
+
 ### Небольшая справочка
 
 Вы можете установить полнценную среду разработки [IntelliJ IDEA](https://www.jetbrains.com/ru-ru/idea/), чтобы писать программы на **Kotlin'е** или
